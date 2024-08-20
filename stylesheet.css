@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-image: url(./img/undress.jpg);
+    background-size:  100%; 
+    background-position:initial;
+}
+.bikram {
+    padding-top: 10%;
+    margin: 0;
+    padding-left: 20%;
+    padding-bottom: 0;
+}
+.links {
+    padding-top: 10%;
+    padding-left: 20%;
+}
+a {
+    color: #fcffff;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+h1 {
+    color: #fcffff;
+    margin: 10px 20px;
+}
+a:hover {
+    color: #e2ff05;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+}
+#number01 {
+    animation: blink 1s linear infinite;
+}
+#number02 {
+    animation: blink 1.1s linear infinite;
+}
+#number03 {
+    animation: blink 1.2s linear infinite;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        background-image: url(./img/face.jpg);
+        background-size:cover;
+    }
+    
+}
