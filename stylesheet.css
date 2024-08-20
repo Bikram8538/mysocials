@@ -42,7 +42,7 @@ a:hover {
     animation: blink 1.2s linear infinite;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1100px) {
     body {
         margin: 0;
         background-image: url(./img/face.jpg);
