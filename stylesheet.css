@@ -12,7 +12,9 @@ body {
 }
 a {
     color: #ffffff;
-    font-family: "Sacramento", cursive;
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
     margin: 10px 20px;
     text-decoration: none;
     font-size: 30px;
